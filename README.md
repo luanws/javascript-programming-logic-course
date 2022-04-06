@@ -46,13 +46,15 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 - Strings;
 - Foreach;
 - Map;
+- Filter;
 - Reduce.
 
 ### 📝 Funções
 
 - Funções;
 - Função anônima;
-- Função arrow.
+- Função arrow;
+- Funcionamento do this.
 
 ### 📁 Objetos
 
