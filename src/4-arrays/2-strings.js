@@ -16,3 +16,7 @@ string.length // 11
 // split - Divide a string em um array de strings,
 // separando-a pelo caractere passado como parâmetro
 string.split(' ') // ['Hello', 'World']
+
+// replace - Substitui todas as ocorrências do caractere passado como
+// primeiro parâmetro pelo caractere passado como segundo parâmetro
+string.replace('World', 'Universe') // 'Hello Universe'
