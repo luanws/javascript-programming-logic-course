@@ -16,6 +16,9 @@ const array3 = Array.of(1, 2, 3, 4, 5)
 // Com o método Array.from
 const array4 = Array.from([1, 2, 3, 4, 5])
 
+// Caso de uso de Array.from
+Array.from('teste') // ['t', 'e', 's', 't', 'e']
+
 // Para acessar os elementos de um array, você pode usar os índices.
 
 // Para acessar o primeiro elemento, você pode usar o índice 0.
