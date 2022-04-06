@@ -40,9 +40,9 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 - Continue;
 - For of.
 
-### 📋 Matrizes
+### 📋 Arrays
 
-- Matrizes;
+- Arrays;
 - Strings;
 - Foreach;
 - Map;
