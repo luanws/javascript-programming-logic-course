@@ -6,4 +6,7 @@
 // O elemento atual é o elemento que está sendo processado atualmente.
 
 const array = [1, 2, 3, 4, 5]
-array.reduce((accumulator, element) => accumulator + element) // 15
+array.reduce((accumulator, element) => accumulator + element, 0) // 15
+
+// Como segundo parâmetro podemos adicionar um valor inicial para o acumulador
+array.reduce((accumulator, element) => accumulator + element, 1) // 16
