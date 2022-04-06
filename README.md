@@ -52,7 +52,7 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 
 - Funções;
 - Função anônima;
-- Função map.
+- Função arrow.
 
 ### 📁 Objetos
 
