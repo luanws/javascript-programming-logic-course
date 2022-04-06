@@ -3,9 +3,10 @@
 
 // Exemplo
 const string = 'Hello World'
-console.log(string[0]) // H
-console.log(string[1]) // e
-console.log(string[6]) // W
+console.log(string[0]) // 'H'
+console.log(string[1]) // 'e'
+console.log(string[5]) // ' '
+console.log(string[6]) // 'W'
 
 // Métodos importantes de strings
 
