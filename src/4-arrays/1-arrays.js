@@ -55,8 +55,9 @@ array.indexOf(2) // 1
 // mas procura do último para o primeiro
 array.lastIndexOf(2) // 1
 
-// slice - Retorna uma cópia do array, começando pelo índice passado como parâmetro
-// contando com o número de elementos passado como segundo parâmetro
+// slice - Retorna uma cópia do array, começando pelo índice passado como
+// primeiro parâmetro até o índice passado como segundo parâmetro (excluindo o
+// índice passado como segundo parâmetro).
 array.slice(1, 3) // [2, 3]
 
 // splice - Remove elementos do array, começando pelo índice passado como parâmetro
