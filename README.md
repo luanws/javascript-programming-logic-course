@@ -79,4 +79,8 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 ### 📃 TypeScript
 
 - Configuração do ambiente;
-- JavaScript com tipos.
+- JavaScript com tipos;
+- Interfaces;
+- Herança;
+- Encapsulamento;
+- Polimorfismo.
