@@ -73,7 +73,7 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 
 ### 📡 Assincronismo
 
-- Promessas
+- Promessas;
 - Funções assíncronas.
 
 ### 📃 TypeScript
