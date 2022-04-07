@@ -5,16 +5,16 @@
 // Existem várias maneiras de declarar arrays em JavaScript:
 
 // Com colchetes
-const array = [1, 2, 3, 4, 5]
+const array = ['banana', 'maçã', 'laranja', 'uva', 'pera']
 
 // Com o construtor Array
-const array2 = new Array(1, 2, 3, 4, 5)
+const array2 = new Array('banana', 'maçã', 'laranja', 'uva', 'pera')
 
 // Com o método Array.of
-const array3 = Array.of(1, 2, 3, 4, 5)
+const array3 = Array.of('banana', 'maçã', 'laranja', 'uva', 'pera')
 
 // Com o método Array.from
-const array4 = Array.from([1, 2, 3, 4, 5])
+const array4 = Array.from(['banana', 'maçã', 'laranja', 'uva', 'pera'])
 
 // Caso de uso de Array.from
 Array.from('teste') // ['t', 'e', 's', 't', 'e']
@@ -33,43 +33,44 @@ const lastElement = array[array.length - 1]
 array.length // 5
 
 // push - Adiciona um elemento no final do array
-array.push(6) // 6
-console.log(array) // [1, 2, 3, 4, 5, 6]
+array.push('melancia') // 6
+console.log(array) // ['banana', 'maçã', 'laranja', 'uva', 'pera', 'melancia']
 
 // pop - Remove o último elemento do array
-array.pop() // 6
-console.log(array) // [1, 2, 3, 4, 5]
+array.pop() // 'melancia'
+console.log(array) // ['banana', 'maçã', 'laranja', 'uva', 'pera']
 
 // unshift - Adiciona um elemento no início do array
-array.unshift(0) // 6
-console.log(array) // [0, 1, 2, 3, 4, 5]
+array.unshift('abacaxi') // 7
+console.log(array) // ['abacaxi', 'banana', 'maçã', 'laranja', 'uva', 'pera']
 
 // shift - Remove o primeiro elemento do array
-array.shift() // 0
-console.log(array) // [1, 2, 3, 4, 5]
+array.shift() // 'abacaxi'
+console.log(array) // ['banana', 'maçã', 'laranja', 'uva', 'pera']
 
 // indexOf - Retorna o índice do elemento passado como parâmetro
-array.indexOf(2) // 1
+array.indexOf('maçã') // 1
 
 // lastIndexOf - Retorna o índice do elemento passado como parâmetro,
 // mas procura do último para o primeiro
-array.lastIndexOf(2) // 1
+array.lastIndexOf('laranja') // 2
 
 // slice - Retorna uma cópia do array, começando pelo índice passado como
 // primeiro parâmetro até o índice passado como segundo parâmetro (excluindo o
 // índice passado como segundo parâmetro).
-array.slice(1, 3) // [2, 3]
+array.slice(1, 3) // ['maçã', 'laranja']
 
-// splice - Remove elementos do array, começando pelo índice passado como parâmetro
-// contando com o número de elementos passado como segundo parâmetro
-array.splice(1, 3) // [2, 3]
-console.log(array) // [1, 4, 5]
+// splice - Remove elementos do array, começando pelo índice passado como primeiro parâmetro
+// contando com o número de elementos passado como segundo parâmetro.
+// Os elementos removidos são retornados.
+array.splice(1, 3) // ['maçã', 'laranja', 'uva']
+console.log(array) // ['banana', 'pera']
 
 // reverse - Inverte a ordem dos elementos do array
-array.reverse() // [5, 4, 1]
+array.reverse() // ['pera', 'banana']
 
 // sort - Ordena os elementos do array
-array.sort() // [1, 4, 5]
+array.sort() // ['banana', 'pera']
 
 // join - Retorna uma string com os elementos do array separados por um caractere
-array.join('-') // "1-4-5"
+array.join(', ') // 'banana, pera'
