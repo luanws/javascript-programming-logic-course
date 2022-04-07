@@ -40,7 +40,7 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 - Continue;
 - For of.
 
-### 📋 Arrays
+### 📋 Matrizes
 
 - Arrays;
 - Strings;
@@ -60,7 +60,10 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 
 - Objetos anônimos;
 - Objeto instanciado por função;
-- Objeto instanciado por classe.
+- Objeto instanciado por classe;
+- Herança;
+- Encapsulamento;
+- Polimorfismo.
 
 ### 🚨 Erros
 
