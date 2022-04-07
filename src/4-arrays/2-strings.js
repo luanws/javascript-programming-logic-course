@@ -14,7 +14,7 @@ console.log(string[6]) // 'W'
 string.length // 11
 
 // split - Divide a string em um array de strings,
-// separando-a pelo caractere passado como parâmetro
+// separando-a pelo caractere ou string passada como parâmetro
 string.split(' ') // ['Hello', 'World']
 
 // replace - Substitui todas as ocorrências do caractere passado como
