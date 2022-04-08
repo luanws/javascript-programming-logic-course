@@ -18,6 +18,8 @@ new Promise((resolve, reject) => {
 
 // Exemplo de uso:
 
+// A função waitForSeconds retorna uma promessa que será resolvida
+// após o tempo informado.
 function waitForSeconds(seconds) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -28,4 +30,14 @@ function waitForSeconds(seconds) {
 
 waitForSeconds(3).then(() => {
     console.log('Estou depois de 3 segundos')
+})
+
+// Mesmo sendo invocada depois, a função abaixo é executada primeiro,
+// pois as funções são executadas paralelamente.
+waitForSeconds(2).then(() => {
+    console.log('Estou depois de 2 segundos')
+})
+
+waitForSeconds(1).then(() => {
+    console.log('Estou depois de 1 segundos')
 })
