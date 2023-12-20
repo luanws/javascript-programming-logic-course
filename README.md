@@ -27,6 +27,7 @@ A seguir, você encontrará um plano de ensino que explica como o curso foi dese
 
 - If;
 - If else;
+- Elif;
 - Switch case;
 - Operador ternário.
 
